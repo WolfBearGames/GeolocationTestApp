@@ -1,0 +1,9 @@
+[config]
+
+name = "Geolocation Release"
+binary_type = "local"
+binary = "GeolocationPlugin.release.aar"
+
+[dependencies]
+
+remote=["com.google.android.gms:play-services-location:17.0.0"]

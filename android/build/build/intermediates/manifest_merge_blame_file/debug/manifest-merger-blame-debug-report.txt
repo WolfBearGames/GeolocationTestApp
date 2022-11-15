@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.godotengine.geolocationtestapp"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" > <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="32" />
+10
+11    <supports-screens
+11-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:12:5-16:40
+12        android:largeScreens="true"
+12-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:15:9-36
+13        android:normalScreens="true"
+13-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:14:9-37
+14        android:smallScreens="true"
+14-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:13:9-36
+15        android:xlargeScreens="true" />
+15-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:16:9-37
+16
+17    <uses-feature
+17-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:10:5-78
+18        android:glEsVersion="0x00030000"
+18-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:10:19-51
+19        android:required="true" />
+19-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:10:52-75
+20
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:11:5-81
+21-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:11:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:12:5-79
+22-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\src\debug\AndroidManifest.xml:12:22-76
+23
+24    <application
+24-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:5-94:19
+25        android:allowBackup="false"
+25-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:68-95
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.2.0] C:\Users\andre\.gradle\caches\transforms-3\9617710e59968e2412aeb3b23f549743\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:hasFragileUserData="false"
+29-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:118-152
+30        android:icon="@mipmap/icon"
+30-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:238-265
+31        android:isGame="true"
+31-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:96-117
+32        android:label="@string/godot_project_name_string"
+32-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:18-67
+33        android:requestLegacyExternalStorage="false" >
+33-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:30:153-197
+34        <activity
+34-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:65:9-88:20
+35            android:name="com.godot.game.GodotApp"
+35-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:66:13-37
+36            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+36-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:73:13-141
+37            android:excludeFromRecents="false"
+37-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:70:13-47
+38            android:exported="true"
+38-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:71:13-36
+39            android:label="@string/godot_project_name_string"
+39-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:67:13-62
+40            android:launchMode="singleTask"
+40-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:69:13-44
+41            android:resizeableActivity="true"
+41-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:74:13-47
+42            android:screenOrientation="portrait"
+42-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:72:13-50
+43            android:theme="@style/GodotAppSplashTheme" >
+43-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:68:13-55
+44            <intent-filter>
+44-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:80:13-87:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:81:17-69
+45-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:81:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:82:17-77
+47-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:82:27-74
+48
+49                <!--
+50                Enable access to OpenXR on Oculus mobile devices, no-op on other Android
+51                platforms.
+52                -->
+53                <category android:name="com.oculus.intent.category.VR" />
+53-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:86:17-74
+53-->C:\Users\andre\OneDrive\Projekte\GodotGames\AndroidPlugin\AndroidApp\android\build\AndroidManifest.xml:86:27-71
+54            </intent-filter>
+55        </activity>
+56        <!-- Records the version of the Godot editor used for building -->
+57        <meta-data
+58            android:name="org.godotengine.editor.version"
+59            android:value="3.5.stable.mono" /> <!-- Records the version of the Godot library -->
+60        <meta-data
+60-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:13:9-15:44
+61            android:name="org.godotengine.library.version"
+61-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:14:13-59
+62            android:value="3.5.0.stable" />
+62-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:15:13-41
+63
+64        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+64-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:17:9-80
+64-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:17:18-77
+65
+66        <activity
+66-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:19:9-23:75
+67            android:name="org.godotengine.godot.utils.ProcessPhoenix"
+67-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:20:13-70
+68            android:exported="false"
+68-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:21:13-37
+69            android:process=":phoenix"
+69-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:22:13-39
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[godot-lib.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\56c161261bd7000ffe6cead26f82b347\transformed\jetified-godot-lib.debug\AndroidManifest.xml:23:13-72
+71
+72        <meta-data
+72-->[GeolocationPlugin.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\e61020730906ad98fb08455da69eaed9\transformed\jetified-GeolocationPlugin.debug\AndroidManifest.xml:14:9-16:84
+73            android:name="org.godotengine.plugin.v1.GeolocationPlugin"
+73-->[GeolocationPlugin.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\e61020730906ad98fb08455da69eaed9\transformed\jetified-GeolocationPlugin.debug\AndroidManifest.xml:15:13-71
+74            android:value="de.wolfbeargames.geolocationplugin.GeolocationPlugin" />
+74-->[GeolocationPlugin.debug.aar] C:\Users\andre\.gradle\caches\transforms-3\e61020730906ad98fb08455da69eaed9\transformed\jetified-GeolocationPlugin.debug\AndroidManifest.xml:16:13-81
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\2353b23b915c417d6acb8b914ebe01e7\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\2353b23b915c417d6acb8b914ebe01e7\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\2353b23b915c417d6acb8b914ebe01e7\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\2353b23b915c417d6acb8b914ebe01e7\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\5f8182f1c6fe92414f5b2e7a7490e32e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\5f8182f1c6fe92414f5b2e7a7490e32e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\andre\.gradle\caches\transforms-3\5f8182f1c6fe92414f5b2e7a7490e32e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>
