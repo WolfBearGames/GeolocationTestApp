@@ -18,5 +18,5 @@ files=[]
 NSLocationAlwaysAndWhenInUseUsageDescription:string_input="Location data usage description"
 NSLocationWhenInUseUsageDescription:string_input="Location data usage description"
 GeolocationReturnCoordinatesAsString:boolean = true
-GeolocationRequestPermissionsAutomatically:boolean= true
+GeolocationRequestPermissionsAutomatically:boolean= false
 GeolocationOnlySendLatestLocation:boolean= false
